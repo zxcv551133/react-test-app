@@ -7,7 +7,7 @@ import './App.css'
 
 class App extends React.Component {
   constructor (props) {
-    super(props)
+    super(props) //props 를 빼도 변화 없음
     this.state = {
       value: Math.round(Math.random() * 100)
     }
