@@ -5,7 +5,5 @@ import App from './App'
 import registerServiceWorker from './registerServiceWorker'
 
 const rootElement = document.getElementById('root')
-ReactDOM.render(<App headerTitle='Welcome!'
-  contentTitle='Stranger,'
-  contentBody='Welcome to example app' />, rootElement)
+ReactDOM.render(<App />, rootElement)
 registerServiceWorker()
